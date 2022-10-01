@@ -135,7 +135,7 @@ export default () => {
 
 ## 注意点
 
-1. T 类型：
+1. listApi 中 T 类型：
 
 ```js
 {

@@ -48,12 +48,15 @@ export default () => (
     />
   </div>
 );
+```
 
-/* .page {
+```css
+/* css */
+.page {
   height: 150px;
-  background: #f7f6f9;
   padding: 10px;
-} */
+  background: #f7f6f9;
+}
 ```
 
 <style>
@@ -71,4 +74,4 @@ export default () => (
 | title    | 标题               | `React.ReactNode`     | -      |
 | extra    | 标题右侧组件       | `React.ReactNode`     | -      |
 | children | 标题下方的操作区域 | `React.ReactNode`     | -      |
-| style    | style 样式         | `React.CSSProperties` | {}     |
+| style    | style 样式         | `React.CSSProperties` | -      |

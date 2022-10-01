@@ -1,12 +1,16 @@
 ---
 title: EllipsisTooltip
+nav:
+  path: /components
+  title: 组件
+  order: 1
 group:
   title: 通用
   path: /common
   order: 1
 ---
 
-# EllipsisTooltip 超出显示省略号组件
+# EllipsisTooltip 省略号显示浮框组件
 
 ## 何时使用
 
@@ -27,13 +31,16 @@ export default () => (
     <div className="box">Tooltip will show on mouse enter.</div>
   </EllipsisTooltip>
 );
+```
 
-/* .box {
+```css
+/* css */
+.box {
   width: 120px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-} */
+}
 ```
 
 <style>

@@ -1,3 +1,11 @@
+/*
+ * @Author: zhangyang
+ * @Date: 2022-09-29 11:25
+ * @LastEditors: zhangyang
+ * @LastEditTime: 2022-10-01 22:34
+ * @FilePath: \nolan-ui\.umirc.ts
+ * @Description: dumi配置
+ */
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
@@ -13,5 +21,6 @@ export default defineConfig({
       href: '/styles/antd.min.css',
     },
   ],
+  navs: [null, { title: 'GitHub', path: 'https://github.com/zlogzr/nolan-ui' }],
   // more config: https://d.umijs.org/config
 });

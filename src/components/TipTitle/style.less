@@ -1,0 +1,48 @@
+.n-tiptitle {
+  .n-background {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+    background-color: #f8f9fa;
+    .n-left {
+      display: flex;
+      align-items: center;
+      .bar {
+        width: 3px;
+        height: 16px;
+        margin-right: 8px;
+        background-color: #4578f8;
+      }
+      .title {
+        margin-right: 8px;
+        color: #333;
+      }
+      .icon {
+        cursor: pointer;
+        .iconUsual {
+          display: block;
+          width: 16px;
+          height: 16px;
+        }
+        .iconActive {
+          display: none;
+        }
+      }
+      .icon:hover {
+        .iconUsual {
+          display: none;
+        }
+        .iconActive {
+          display: block;
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+    .n-right {
+      padding-right: 12px;
+      line-height: 32px;
+    }
+  }
+}
