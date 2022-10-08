@@ -1,7 +1,24 @@
 {
-  "private": true,
   "name": "nolan-ui",
   "version": "1.0.0",
+  "description": "UI组件库",
+  "author": "Nolan Zhang",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "Component",
+    "UI",
+    "React"
+  ],
+  "homepage": "https://github.com/zlogzr/nolan-ui",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zlogzr/nolan-ui"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",

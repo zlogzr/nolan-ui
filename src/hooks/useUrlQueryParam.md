@@ -16,7 +16,7 @@ group:
 
 ## 何时使用
 
-获取设置 url 路由 query 的键值对对象
+获取和设置 url 路由 query 的键值对对象
 
 ```js
 import { useUrlQueryParam } from '@/hooks/useUrlQueryParam';

@@ -6,7 +6,7 @@ group:
   order: 1
 ---
 
-# cleanObject
+# cleanObject 清除对象
 
 ## 何时使用
 
