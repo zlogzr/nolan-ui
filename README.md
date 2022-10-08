@@ -1,33 +1,15 @@
-# nolan-ui
+## nolan-ui
 
-## Getting Started
+UI 组件库
 
-Install dependencies,
+组件引入：
 
-```bash
-$ npm i
+```js
+import { TipTitle } from 'nolan-ui';
 ```
 
-Start the dev server,
+样式引入：基于`antd`引入 antd 样式
 
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father`,
-
-```bash
-$ npm run build
+```js
+import 'antd/dist/antd.css';
 ```
