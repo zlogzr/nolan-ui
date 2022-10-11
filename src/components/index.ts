@@ -2,7 +2,7 @@
  * @Author: zhangyang
  * @Date: 2022-09-29 11:50
  * @LastEditors: zhangyang
- * @LastEditTime: 2022-10-01 16:53
+ * @LastEditTime: 2022-10-11 17:59
  * @FilePath: \nolan-ui\src\components\index.ts
  * @Description:
  */
@@ -27,3 +27,4 @@ export { default as NRow } from './NRow';
 export { default as ErrorBoundary } from './ErrorBoundary';
 export { FullPageErrorFallback, FullPageLoading, ErrorBox } from './lib';
 export { default as Mark } from './Mark';
+export { default as CountdownButton } from './CountdownButton';

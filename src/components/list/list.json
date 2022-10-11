@@ -4,6 +4,17 @@
     "order": "1",
     "children": [
       {
+        "title": "CountdownButton",
+        "subtitle": "倒计时按钮",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/countdown-button"
+      },
+      {
         "title": "EllipsisTooltip",
         "subtitle": "省略号显示浮框组件",
         "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",

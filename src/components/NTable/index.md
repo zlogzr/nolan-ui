@@ -3,10 +3,10 @@ title: NTable
 group:
   title: 业务
   path: /business
-  order: 1
+  order: 2
 ---
 
-# NTable
+# NTable 表格
 
 ## 何时使用
 

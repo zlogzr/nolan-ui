@@ -27,24 +27,26 @@ import { useUrlQueryParam } from '@/hooks/useUrlQueryParam';
 ```ts
 import { cleanObject } from '@/utils';
 import { URLSearchParamsInit, useSearchParams } from 'react-router-dom';
-
+// useParams是获取history模式的
 /**
  * @description 返回页面url中，指定键的参数值
  */
 export const useUrlQueryParam = <K extends string>(keys: K[]) => {
   const [searchParams, setSearchParam] = useSearchParams();
   return [
-    keys.reduce(
-      (prev, key) => ({ ...prev, [key]: searchParams.get(key) || '' }),
-      {} as { [key in K]: string },
-    ),
-    (params: { [key in string]: unknown }) => {
+    useMemo(()->{
+      return keys.reduce(
+        (prev, key) => ({ ...prev, [key]: searchParams.get(key) || '' }),
+        {} as { [key in K]: string }
+      )
+    }, [keys, searchParams]),
+    useCallback((params: { [key in string]: unknown }) => {
       const o = cleanObject({
         ...Object.fromEntries(searchParams),
         ...params,
       }) as URLSearchParamsInit;
       return setSearchParam(o);
-    },
+    }, [params, searchParams])
   ] as const;
 };
 ```
