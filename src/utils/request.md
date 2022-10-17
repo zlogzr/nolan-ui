@@ -102,7 +102,7 @@ export default $axios;
 
 ## 注意点
 
-BackResult 类型为后端返回数据的类型, 比如：
+BackResult 类型为后端返回数据的类型，比如：
 
 ```ts
 interface BackResult {

@@ -34,11 +34,11 @@ import { URLSearchParamsInit, useSearchParams } from 'react-router-dom';
 export const useUrlQueryParam = <K extends string>(keys: K[]) => {
   const [searchParams, setSearchParam] = useSearchParams();
   return [
-    useMemo(()->{
+    useMemo(() => {
       return keys.reduce(
         (prev, key) => ({ ...prev, [key]: searchParams.get(key) || '' }),
-        {} as { [key in K]: string }
-      )
+        {} as { [key in K]: string },
+      );
     }, [keys, searchParams]),
     useCallback((params: { [key in string]: unknown }) => {
       const o = cleanObject({
@@ -46,7 +46,7 @@ export const useUrlQueryParam = <K extends string>(keys: K[]) => {
         ...params,
       }) as URLSearchParamsInit;
       return setSearchParam(o);
-    }, [params, searchParams])
+    }),
   ] as const;
 };
 ```

@@ -18,6 +18,8 @@ import { downloadFile } from '@/utils';
 
 ## 代码展示
 
+- 携带 token 的下载文件方法
+
 ```ts
 /**
  * @description 点击下载文件
@@ -63,5 +65,23 @@ export function downloadFile(url: string) {
     }
   };
   xhr.send();
+}
+```
+
+- 不需要携带 token 的下载文件方法
+
+```ts
+/*
+ * 下载文件
+ * 通过自动触发表单提交来实现
+ */
+export function downloadFile(url: string) {
+  const $form = document.createElement('form');
+  $form.setAttribute('method', 'GET');
+  $form.setAttribute('action', url);
+  document.body.appendChild($form);
+  // 自动触发表单提交
+  $form.submit();
+  document.body.removeChild($form);
 }
 ```
