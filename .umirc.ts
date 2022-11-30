@@ -1,11 +1,3 @@
-/*
- * @Author: zhangyang
- * @Date: 2022-09-29 11:25
- * @LastEditors: zhangyang
- * @LastEditTime: 2022-11-30 11:46
- * @FilePath: \nolan-ui\.umirc.ts
- * @Description: dumi配置
- */
 import { defineConfig } from 'dumi';
 
 const repo = 'nolan-ui';
