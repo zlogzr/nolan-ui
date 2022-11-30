@@ -27,7 +27,7 @@ footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](http
 - 使用组件
 
 ```js
-import { NTable } from 'nolan-ui';
+import { TipTitle } from 'nolan-ui';
 ```
 
 ## 背景
