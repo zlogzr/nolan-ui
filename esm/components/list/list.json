@@ -1,0 +1,124 @@
+[
+  {
+    "title": "通用",
+    "order": "1",
+    "children": [
+      {
+        "title": "CountdownButton",
+        "subtitle": "倒计时按钮",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/countdown-button"
+      },
+      {
+        "title": "EllipsisTooltip",
+        "subtitle": "省略号显示浮框组件",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/ellipsis-tooltip"
+      },
+      {
+        "title": "ErrorBoundary",
+        "subtitle": "错误边界",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/error-boundary"
+      },
+      {
+        "title": "FullPageErrorFallback",
+        "subtitle": "全局错误提示",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/full-page-error-fallback"
+      },
+      {
+        "title": "Mark",
+        "subtitle": "高亮关键字组件",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/mark"
+      },
+      {
+        "title": "TipTitle",
+        "subtitle": "提示标题",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "通用",
+          "path": "/common",
+          "order": "1"
+        },
+        "href": "/components/common/tip-title"
+      }
+    ]
+  },
+  {
+    "title": "业务",
+    "order": "2",
+    "children": [
+      {
+        "title": "NLayout",
+        "subtitle": "布局组件",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "业务",
+          "path": "/business",
+          "order": "2"
+        },
+        "href": "/components/business/nlayout"
+      },
+      {
+        "title": "NPageHeader",
+        "subtitle": "页头布局组件",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "业务",
+          "path": "/business",
+          "order": "2"
+        },
+        "href": "/components/business/npage-header"
+      },
+      {
+        "title": "NRow",
+        "subtitle": "行展示组件",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "业务",
+          "path": "/business",
+          "order": "2"
+        },
+        "href": "/components/business/nrow"
+      },
+      {
+        "title": "NTable",
+        "subtitle": "列表组件",
+        "cover": "http://gw.alipayobjects.com/zos/alicdn/5swjECahe/Divider.svg",
+        "group": {
+          "title": "业务",
+          "path": "/business",
+          "order": "2"
+        },
+        "href": "/components/business/ntable"
+      }
+    ]
+  }
+]
