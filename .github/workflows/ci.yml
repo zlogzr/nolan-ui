@@ -19,10 +19,10 @@ jobs:
       - name: Build Project
         run: |
           npm install
-          npm run build
+          npm run docs:build
 
       - name: Deploy to Github
         uses: JamesIves/github-pages-deploy-action@4.0.0
         with:
           branch: build
-          folder: dist
+          folder: docs-dist
