@@ -1,5 +1,5 @@
 ---
-title: throttle 节流
+title: throttle
 group:
   title: 通用
   path: /common

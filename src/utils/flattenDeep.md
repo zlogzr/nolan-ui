@@ -1,5 +1,5 @@
 ---
-title: flattenDeep 数组拍平
+title: flattenDeep
 group:
   title: 通用
   path: /common

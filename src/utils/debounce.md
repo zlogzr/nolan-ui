@@ -1,5 +1,5 @@
 ---
-title: debounce 防抖
+title: debounce
 group:
   title: 通用
   path: /common
