@@ -2,11 +2,13 @@
  * @Author: zhangyang
  * @Date: 2022-09-29 11:25
  * @LastEditors: zhangyang
- * @LastEditTime: 2022-10-01 22:34
+ * @LastEditTime: 2022-11-30 11:30
  * @FilePath: \nolan-ui\.umirc.ts
  * @Description: dumi配置
  */
 import { defineConfig } from 'dumi';
+
+const repo = 'nolan-ui';
 
 export default defineConfig({
   mode: 'site',
@@ -22,5 +24,6 @@ export default defineConfig({
     },
   ],
   navs: [null, { title: 'GitHub', path: 'https://github.com/zlogzr/nolan-ui' }],
+  publicPath: process.env.NODE_ENV === 'production' ? `/${repo}/` : '/',
   // more config: https://d.umijs.org/config
 });
