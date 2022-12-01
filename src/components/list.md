@@ -93,11 +93,11 @@ export default () => {
     width: 100%;
     padding: 0;
     font-size: 20px;
-    border: 0!important;
+    border: 0 !important;
     box-shadow: none;
   }
   .components-catalog-search:focus {
-    border: 0!important;
+    border: 0 !important;
     box-shadow: none;
   }
   .components-catalog-search input {

@@ -12,7 +12,10 @@ export default defineConfig({
   links: [
     {
       rel: 'stylesheet',
-      href: '/styles/antd.min.css',
+      href:
+        process.env.NODE_ENV === 'production'
+          ? `/${repo}/styles/antd.min.css`
+          : '/styles/antd.min.css',
     },
   ],
   navs: [null, { title: 'GitHub', path: 'https://github.com/zlogzr/nolan-ui' }],
